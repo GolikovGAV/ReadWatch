@@ -1,0 +1,78 @@
+.popup {
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Comfortaa', cursive;
+}
+.container {
+	max-width: 800px;
+	display: flex;
+	position: relative;
+	width: 60%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-text);
+	border-radius: 40px;
+	color: aliceblue;
+}
+.cross {
+	height: 1.5rem;
+}
+.form {
+	display: flex;
+	margin: 2rem auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	width: 80%;
+}
+.input {
+	margin-top: 0.5rem;
+	padding-left: 1rem;
+	border: 0;
+	height: 2rem;
+	border-radius: 25px;
+	width: 90%;
+	font-family: 'Comfortaa', cursive;
+}
+.label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	width: 100%;
+}
+.save {
+	display: flex;
+	align-items: center;
+	font-family: 'Comfortaa', cursive;
+	padding: 0.5rem;
+	color: white;
+	border: 2px solid var(--accent-tangerine);
+	background-color: transparent;
+	border-radius: 25px;
+	height: 2rem;
+}
+.close {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid var(--accent-tangerine);
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	background-color: transparent;
+	top: 2rem;
+	right: 2rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');

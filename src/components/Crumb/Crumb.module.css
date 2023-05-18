@@ -1,0 +1,91 @@
+.crumb {
+	display: flex;
+	flex-direction: column;
+	max-width: 45%;
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0;
+	gap: 0.5rem;
+	padding: 1rem;
+	border: 1px solid var(--main-gray);
+	border-radius: 25px;
+	justify-content: center;
+	align-items: center;
+	transition: ease all 0.5s;
+	color: var(--main-text);
+	font-family: 'Comfortaa', cursive;
+}
+@media screen and (max-width: 1920px) {
+	.crumb {
+		max-width: 600px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.crumb {
+		max-width: 450px;
+	}
+}
+@media screen and (max-width: 950px) {
+	.crumb {
+		max-width: 800px;
+	}
+}
+.type {
+	margin: 0;
+	color: var(--main-gray);
+	padding: 0;
+}
+.title {
+	margin: 0;
+	padding: 0;
+}
+.link {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	color: var(--accent-tangerine);
+	text-decoration: none;
+}
+.link:hover {
+	transform: scale(1.5);
+	transition: transform linear 0.25s;
+}
+.icons {
+	height: 1.5rem;
+}
+.container {
+	display: flex;
+	gap: 0.5rem;
+	align-items: flex-end;
+	text-align: center;
+}
+.counter {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.count {
+	margin: 0.5rem;
+	font-weight: 700;
+}
+.button {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: transparent;
+	border: 2px solid var(--accent-tangerine);
+	border-radius: 50%;
+}
+.button:hover {
+	transform: scale(1.5);
+	transition: transform linear 0.25s;
+}
+.bin {
+	border: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');

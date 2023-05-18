@@ -1,0 +1,42 @@
+.header {
+	position: sticky;
+	background-color: white;
+	font-family: 'Righteous', cursive;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 2rem;
+	border-bottom: 1px solid var(--main-gray);
+	color: aliceblue;
+}
+.title {
+	display: flex;
+	font-size: 2rem;
+	margin: 0;
+	font-weight: 700;
+	color: var(--main-gray);
+}
+.watch {
+	color: var(--accent-tangerine);
+}
+.switch {
+	position: absolute;
+	cursor: pointer;
+	right: 25%;
+	width: 1.5rem;
+}
+.switch:hover {
+	transform: scale(1.5);
+	transition: transform linear 0.25s;
+}
+.add {
+	position: absolute;
+	cursor: pointer;
+	left: 25%;
+	width: 1.5rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');

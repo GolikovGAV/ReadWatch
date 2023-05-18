@@ -1,0 +1,10 @@
+.main {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0;
+}
+:root {
+	--accent-tangerine: #fa8128;
+	--main-gray: #a4a9ad;
+	--main-text: #3a3a3a;
+}

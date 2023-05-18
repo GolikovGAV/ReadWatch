@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e938f8a.css",
-    "main.js": "/static/js/main.8331bacd.js",
-    "static/media/bin-svgrepo-com.svg": "/static/media/bin-svgrepo-com.4d2e2d3e56265b6b35919922e386236c.svg",
-    "static/media/day-night-sun-moon-cycle-svgrepo-com.svg": "/static/media/day-night-sun-moon-cycle-svgrepo-com.4ad43dd97a90623f99bfc1382c03f53f.svg",
-    "index.html": "/index.html",
-    "static/media/cross-svgrepo-com.svg": "/static/media/cross-svgrepo-com.25f465d97940c0118a771aaec5fc11a1.svg",
-    "static/media/plus-small-svgrepo-com.svg": "/static/media/plus-small-svgrepo-com.f4914463d86909939492c1f37901b106.svg",
-    "static/media/minus-small-svgrepo-com.svg": "/static/media/minus-small-svgrepo-com.05d964e42a70b33273927bb9e48deda9.svg",
-    "main.4e938f8a.css.map": "/static/css/main.4e938f8a.css.map",
-    "main.8331bacd.js.map": "/static/js/main.8331bacd.js.map"
+    "main.css": "/ReadWatch/static/css/main.4e938f8a.css",
+    "main.js": "/ReadWatch/static/js/main.632c3737.js",
+    "static/media/bin-svgrepo-com.svg": "/ReadWatch/static/media/bin-svgrepo-com.4d2e2d3e56265b6b35919922e386236c.svg",
+    "static/media/day-night-sun-moon-cycle-svgrepo-com.svg": "/ReadWatch/static/media/day-night-sun-moon-cycle-svgrepo-com.4ad43dd97a90623f99bfc1382c03f53f.svg",
+    "index.html": "/ReadWatch/index.html",
+    "static/media/cross-svgrepo-com.svg": "/ReadWatch/static/media/cross-svgrepo-com.25f465d97940c0118a771aaec5fc11a1.svg",
+    "static/media/plus-small-svgrepo-com.svg": "/ReadWatch/static/media/plus-small-svgrepo-com.f4914463d86909939492c1f37901b106.svg",
+    "static/media/minus-small-svgrepo-com.svg": "/ReadWatch/static/media/minus-small-svgrepo-com.05d964e42a70b33273927bb9e48deda9.svg",
+    "main.4e938f8a.css.map": "/ReadWatch/static/css/main.4e938f8a.css.map",
+    "main.632c3737.js.map": "/ReadWatch/static/js/main.632c3737.js.map"
   },
   "entrypoints": [
     "static/css/main.4e938f8a.css",
-    "static/js/main.8331bacd.js"
+    "static/js/main.632c3737.js"
   ]
 }
